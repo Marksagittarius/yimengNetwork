@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.myBody {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 70rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.myHeader {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.myHeader:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: 25;
+}
+
+.mountain1 {
+  position: absolute;
+  bottom: -100px;
+  width: 1500px;
+  right: 0;
+  z-index: 19;
+}
+
+.person {
+  position: absolute;
+  width: 650px;
+  bottom: -100px;
+  left: -70px;
+  z-index: 20;
+}
+
+.mountain2 {
+  position: absolute;
+  width: 1100px;
+  bottom: -100px;
+  left: 0;
+  z-index: 18;
+}
+
+.mountain3 {
+  position: absolute;
+  width: 900px;
+  bottom: 150px;
+  right: 0;
+  z-index: 17;
+}
+
+.sky {
+  position: absolute;
+  width: 100%;
+  bottom: 250px;
+  right: 0;
+}
+
+.myNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 0;
+  z-index: 30;
+  background: linear-gradient(to bottom, rgba( 0, 0, 0, 0.05), transparent)
+}
+
+.myNav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "华文中宋", serif;
+}
+
+.logo span {
+  font-weight: 300;
+}
+
+.hamburgerMenu {
+  width: 1.55rem;
+  height: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bar {
+  position: relative;
+  width: 1.2rem;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.bar:before, .bar:after {
+  content: '';
+  position: absolute;
+  width: 1.55rem;
+  height: 3px;
+  right: 0;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.bar:before {
+  transform: translateY(-8px);
+}
+
+.bar:after {
+  transform: translateY(8px);
+}
+
+.bigTitle {
+  position: absolute;
+  z-index: 30;
+  line-height: 4rem;
+  top: calc(30%);
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "华文中宋", serif;
+  color: #fff;
+}
+
+.bigSubTitle {
+  position: absolute;
+  z-index: 30;
+  line-height: 4rem;
+  top: calc(50%);
+  width: 100%;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: "华文中宋", serif;
+  color: #fff;
+}
+
+
+.mySection {
+  width: 100%;
+  background-color: #151515;
+  position: relative;
+}
+
+.mySection .container {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.mySection img {
+  width: 100%;
+}
+
+.mySection .container > * {
+  margin: 2rem;
+}
+
+.content {
+  color: #fff;
+  transform: translateY(-50px);
+}
+
+.imgContainer {
+  transform: translateY(50px);
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: .5rem;
+  position: relative;
+}
+
+.border {
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+}
+
+.shadow {
+  position: absolute;
+  bottom: 100%;
+  height: 300px;
+  width: 100%;
+  left: 0;
+  z-index: 20;
+  background: linear-gradient(to top, #151515, transparent);
+}
+
+.opacity {
+  opacity: 0;
+}
+
+@media (max-width: 850px) {
+section .container {
+  grid-template-columns: 1fr;
+}
+}
+
+@media(max-width: 600px) {
+.big-title {
+  font-size: 3rem
+}
+
+.text {
+  font-size: .8rem;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+}
+
+.text {
+  font-size: .8rem;
+}
+
+.githubCorner:hover .octoarm {
+  animation:octocatwave 560ms ease-in-out} @keyframes octocatwave{0 %,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media
+(max-width:500px){
+  .github-corner:hover .octoarm{animation:none
+  } .githubCorner .octoarm {
+        animation: octocatwave 560ms ease-in-out
+      }
+}
+
+.gitcat {
+  fill:#151513;
+  color:#fff;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+
+.octoarm {
+  transform-origin: 130px 106px;
+}

@@ -1,5 +1,6 @@
-export default function HomePage() {
-    return <div>OH</div>
+import HomePage from "../components/HomePage/HomePage";
+
+export default function renderHomePage() {
+
+    return <HomePage/>
 }
-
-
