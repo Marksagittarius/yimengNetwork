@@ -13,8 +13,10 @@ import  {Body} from "next/dist/server/web/spec-compliant/body";
 export default function HomePage() {
 
     return <body className = {style.myBody}>
+
         <div className = {style.myHeader}>
             <div className = {style.myNav}>
+
                 <div className = {style.container}>
                     <h3 className = {style.logo}>大连理工大学软件学院</h3>
                     <div>
@@ -38,6 +40,15 @@ export default function HomePage() {
 
             <h1 className = {style.bigTitle} data-speed="0.1">水乳交融 生死与共</h1>
             <h3 className = {style.bigSubTitle} data-speed="0.1"> 大连理工大学 “蒙山巍秀·沂水流长” 社会实践团</h3>
+
+
+            <a href = "#about" className = {style.scrollButton} data-iconfont="ETmodules" data-icon>
+            </a>
+            <a href = "#about" className = {style.scrollButton1} data-iconfont="ETmodules" data-icon>
+            </a>
+            <a href = "#about" className = {style.scrollButton2} data-iconfont="ETmodules" data-icon>
+            </a>
+
            <div className = {style.person} >
             <Image src = {person1} data-speed="-0.25" alt=""/>
            </div>
@@ -65,7 +76,7 @@ export default function HomePage() {
 
             <div className={style.container}>
                 <div className={style.content}>
-                    <h3 className={style.title}>
+                    <h3 className={style.title} id = "about">
                        关于我们
                         <div className={style.borderd}>
                             <p>大连理工大学“蒙山巍秀，沂水流长”社会实践团是一支由大连理工大学软件学院实践部社会实践中心、实践部青年志愿者协会以及红色先锋团成员共同组织的社会实践队伍。</p>
