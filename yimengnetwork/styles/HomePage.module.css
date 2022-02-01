@@ -64,9 +64,12 @@
 .sky {
   position: absolute;
   width: 100%;
+  height: 100%;
   bottom: 250px;
   right: 0;
 }
+
+
 
 .myNav {
   position: absolute;
