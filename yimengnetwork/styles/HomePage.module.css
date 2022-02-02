@@ -69,8 +69,6 @@
   right: 0;
 }
 
-
-
 .myNav {
   position: absolute;
   top: 0;
@@ -94,6 +92,10 @@
   font-weight: 600;
   letter-spacing: 2px;
   font-family: "华文中宋", serif;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  TEXT-DECORATION:none
 }
 
 .logo span {
@@ -159,8 +161,6 @@
   font-weight: 500;
   color: #fff;
 }
-
-
 
 .mySection {
   width: 100%;
@@ -249,30 +249,9 @@ section .container {
   font-size: .8rem;
 }
 
-.githubCorner:hover .octoarm {
-  animation:octocatwave 560ms ease-in-out} @keyframes octocatwave{0 %,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media
-(max-width:500px){
-  .github-corner:hover .octoarm{animation:none
-  } .githubCorner .octoarm {
-        animation: octocatwave 560ms ease-in-out
-      }
-}
-
-.gitcat {
-  fill:#151513;
-  color:#fff;
-  position: absolute;
-  top: 0;
-  border: 0;
-  right: 0;
-}
-
-.octoarm {
-  transform-origin: 130px 106px;
-}
 
 .scrollButton {
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
+
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
