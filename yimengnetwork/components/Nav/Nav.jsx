@@ -6,7 +6,7 @@ export default function Nav() {
             <li><a>主页</a></li>
             <li><a>文章</a></li>
             <li><a>视频</a></li>
-            <li><a>关于我们</a></li>
+            <li><a>关于我们</a></li>    ·
             <div>
                 <a href="https://github.com/Marksagittarius/yimengNetwork" className = {style.githubCorner} aria-label="View source on GitHub">
                     <svg width="70" height="70" viewBox="0 0 250 250"
