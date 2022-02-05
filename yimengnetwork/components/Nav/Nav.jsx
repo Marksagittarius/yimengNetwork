@@ -1,15 +1,16 @@
 import style from "../../styles/Nav.module.css"
+import Link from "next/link";
 
 export default function Nav() {
     return(
         <ul className={style.List}>
-            <li><a>主页</a></li>
-            <li><a>文章</a></li>
-            <li><a>视频</a></li>
-            <li><a>关于我们</a></li>    ·
+            <li><a><Link href={"/"} >主页</Link></a></li>
+            <li><a><Link href={"/menu"}>文章</Link></a></li>
+            <li><a><Link href={"/"}>视频</Link></a></li>
+            <li><a href = "#about"><Link href={"/"}>关于我们</Link></a></li>    ·
             <div>
                 <a href="https://github.com/Marksagittarius/yimengNetwork" className = {style.githubCorner} aria-label="View source on GitHub">
-                    <svg width="70" height="70" viewBox="0 0 250 250"
+                    <svg width="100" height="100" viewBox="0 0 250 250"
                          className = {style.gitcat}
                          aria-hidden="true">
                         <path d = "M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/>

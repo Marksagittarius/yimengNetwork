@@ -4,9 +4,9 @@
     padding: 0;
     overflow: hidden;
     background-color: #111;
-    position: absolute;
+    position: fixed;
     z-index: 50;
-    opacity: 70%;
+    opacity: 60%;
     width: 100%;
 }
 

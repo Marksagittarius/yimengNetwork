@@ -1,6 +1,12 @@
-.homePage {
+.all {
+
+}
+
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: url("../public/img/ArticleMenu/background.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
-
