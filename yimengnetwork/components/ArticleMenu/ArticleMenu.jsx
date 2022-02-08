@@ -133,12 +133,7 @@ export default function ArticleMenu() {
                     />
                 </Card>
             </div>
-
-
-
-
-
-
+            
         </div>
         </div>
     )
